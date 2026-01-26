@@ -1,0 +1,13 @@
+{
+  "name": "hp-ios-kit",
+  "version": "1.0.0",
+  "description": "HP iOS Skills and Workflows installer",
+  "bin": {
+    "hp-ios-kit-install": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "HP",
+  "license": "ISC"
+}
