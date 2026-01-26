@@ -1,13 +1,26 @@
 {
-  "name": "hp-ios-kit",
+  "name": "@huypham85/antigravity-ios-kit",
   "version": "1.0.0",
-  "description": "HP iOS Skills and Workflows installer",
+  "description": "HP iOS Skills and Workflows installer for Antigravity agents",
   "bin": {
-    "hp-ios-kit-install": "./bin/cli.js"
+    "antigravity-ios-install": "./bin/cli.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "HP",
-  "license": "ISC"
+  "license": "ISC",
+  "keywords": [
+    "ios",
+    "apple",
+    "swift",
+    "ai-agent",
+    "antigravity",
+    "skills",
+    "workflow"
+  ],
+  "files": [
+    "bin",
+    "assets"
+  ]
 }

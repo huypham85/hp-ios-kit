@@ -25,10 +25,7 @@ function copyRecursiveSync(src, dest) {
   }
 }
 
-const sourceDir = path.join(__dirname, "..", "assets", ".agent");
-const targetDir = path.join(process.cwd(), ".agent");
-
-console.log("🚀 Installing HP iOS Kit...");
+console.log("🚀 Installing Antigravity iOS Kit...");
 
 if (!fs.existsSync(sourceDir)) {
   console.error("❌ Error: Source assets not found at " + sourceDir);
@@ -39,9 +36,9 @@ try {
   console.log(`📦 Copying skills and workflows to ${targetDir}...`);
   copyRecursiveSync(sourceDir, targetDir);
   console.log(
-    "✅ Installation complete! You can now use HP skills and workflows.",
+    "✅ Installation complete! You can now use Antigravity skills and workflows.",
   );
-  console.log("   Try running: @hp-ios-kit/workflows/audit");
+  console.log("   Try running: @antigravity-ios-kit/workflows/audit");
 } catch (err) {
   console.error("❌ Installation failed:", err);
   process.exit(1);
