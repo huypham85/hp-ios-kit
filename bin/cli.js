@@ -25,6 +25,9 @@ function copyRecursiveSync(src, dest) {
   }
 }
 
+const sourceDir = path.join(__dirname, "..", "assets", ".agent");
+const targetDir = path.join(process.cwd(), ".agent");
+
 console.log("🚀 Installing Antigravity iOS Kit...");
 
 if (!fs.existsSync(sourceDir)) {
